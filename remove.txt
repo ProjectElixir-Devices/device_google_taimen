@@ -1,0 +1,12 @@
+device/google/taimen
+device/google/wahoo
+kernel/google/wahoo
+vendor/google/taimen
+hardware/qcom/camera
+hardware/qcom/media
+hardware/qcom/audio
+hardware/qcom/display
+hardware/qcom/wlan
+hardware/qcom/gps
+hardware/qcom/data
+hardware/lineage/compat

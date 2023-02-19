@@ -53,6 +53,12 @@ TARGET_RECOVERY_UI_LIB := \
 # for all future devices.
 BOARD_KERNEL_CMDLINE += androidboot.dtbo_idx=12
 
+# Kernel
+TARGET_KERNEL_CONFIG := lineageos_taimen_defconfig
+
+#Build Broken
+BUILD_BROKEN_DUP_RULES := true
+
 # Board uses A/B OTA.
 AB_OTA_UPDATER := true
 

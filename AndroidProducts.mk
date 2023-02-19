@@ -1,6 +1,7 @@
 #
 # Copyright 2017 The Android Open Source Project
-#
+# Copyright (C) 2021-2023 Project Elixir
+
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
@@ -19,4 +20,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_taimen_hwasan.mk \
 
 COMMON_LUNCH_CHOICES := \
-    aosp_taimen-userdebug
+    aosp_taimen-user \
+    aosp_taimen-userdebug \
+    aosp_taimen-eng
