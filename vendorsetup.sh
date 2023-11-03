@@ -16,8 +16,13 @@ rm -rf packages/apps/GoogleCamera
 
 # Tree Dependencies
 git clone --depth=1 https://github.com/ProjectElixir-Devices/device_google_wahoo.git -b thirteen device/google/wahoo
-git clone --depth=1 https://github.com/ProjectElixir-Devices/kernel_google_wahoo.git -b thirteen-su kernel/google/wahoo
 git clone --depth=1 https://github.com/ProjectElixir-Devices/vendor_google_taimen.git -b thirteen vendor/google/taimen
+
+# Kernel
+git clone --depth=1 https://github.com/ProjectElixir-Devices/kernel_google_wahoo.git -b thirteen-su kernel/google/wahoo
+cd kernel/google/wahoo
+git submodule init && git submodule update KernelSU
+cd ../../..
 
 # Common Hardware Qcom
 git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_audio.git -b lineage-20.0 hardware/qcom/audio
