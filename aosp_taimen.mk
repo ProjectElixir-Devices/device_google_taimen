@@ -26,6 +26,7 @@ IS_PHONE := true
 ELIXIR_BUILD_TYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_USES_AOSP_RECOVERY := true
 
 # Inherit device configuration
 $(call inherit-product, device/google/taimen/device.mk)
