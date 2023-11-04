@@ -170,8 +170,6 @@ product/etc/permissions/com.verizon.apn.xml
 product/etc/permissions/com.verizon.services.xml
 product/etc/permissions/features-verizon.xml
 product/etc/permissions/obdm_permissions.xml
-product/etc/permissions/privapp-permissions-google-p.xml
-product/etc/permissions/split-permissions-google.xml
 product/etc/permissions/vzw_mvs_permissions.xml
 product/etc/sysconfig/google-hiddenapi-package-whitelist.xml
 product/etc/sysconfig/nexus.xml
@@ -182,7 +180,6 @@ product/lib/libdmengine.so
 product/lib/libdmjavaplugin.so
 product/priv-app/AmbientSensePrebuilt/AmbientSensePrebuilt.apk;PRESIGNED
 product/priv-app/AppDirectedSMSService/AppDirectedSMSService.apk;PRESIGNED
-product/priv-app/CarrierServices/CarrierServices.apk;PRESIGNED
 product/priv-app/CarrierSettings/CarrierSettings.apk;PRESIGNED
 product/priv-app/CarrierWifi/CarrierWifi.apk;PRESIGNED
 product/priv-app/ConnMO/ConnMO.apk
