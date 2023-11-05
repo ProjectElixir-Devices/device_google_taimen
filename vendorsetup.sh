@@ -23,6 +23,7 @@ git clone --depth=1 https://github.com/ProjectElixir-Devices/kernel_google_wahoo
 cd kernel/google/wahoo
 git submodule init && git submodule update KernelSU
 cd ../../..
+rm -rf kernel/google/wahoo/KernelSU/userspace/su/jni # MODULE.TARGET.EXECUTABLES.su already defined by system/extras/su.
 
 # Common Hardware Qcom
 git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_audio.git -b lineage-20.0 hardware/qcom/audio
